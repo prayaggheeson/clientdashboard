@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<h1>Home</h1>} />
           <Route path="/login" element={<Login/>} />
 
-          {/* // dashboard routes */}
+          {/*  dashboard routes */}
           <Route path="/dashboard" exact element={<Sidebar />}>
             <Route index element={<Dashboard />} />
             <Route path="income" exact element={<Income />} />
